@@ -1,0 +1,37 @@
+@import url ()
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(120deg, #7200a3,#00004d);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 50px 50px 50px blue;
+}
+
+.center_header {
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 1px solid;
+}
+
